@@ -40,11 +40,6 @@ TradeLens is a modern stock trading platform inspired by leading brokerage appli
 
 https://tradelens-1.onrender.com
 
-### 📊 Trading Dashboard
-
-> *(Deploy separately and add the dashboard URL here.)*
-
----
 
 # 📖 About
 
