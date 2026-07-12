@@ -1,43 +1,84 @@
 <div align="center">
 
-<img src="screenshots/tradelens-logo.png" width="140"/>
+<img src="screenshots/tradelens-logo.png" width="160"/>
 
 # 📈 TradeLens
 
-### A Full Stack Stock Trading Platform Inspired by Modern Brokerage Applications
+### A Full Stack MERN Stock Trading Platform
 
-![React](https://img.shields.io/badge/React-18-blue?logo=react)
-![Node.js](https://img.shields.io/badge/Node.js-Express-green?logo=node.js)
-![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb)
-![Passport](https://img.shields.io/badge/Authentication-Passport.js-lightgreen)
-![Yahoo Finance](https://img.shields.io/badge/API-Yahoo%20Finance-yellow)
+TradeLens is a modern stock trading platform inspired by leading brokerage applications. It allows users to securely manage investments, monitor live stock prices, maintain personalized watchlists, and execute virtual buy/sell operations through a responsive dashboard.
+
+<p align="center">
+
+<a href="https://tradelens-1.onrender.com">
+<img src="https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Website-success?style=for-the-badge">
+</a>
+
+<a href="https://github.com/Srujan-017/TradeLens">
+<img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github">
+</a>
+
+</p>
+
+<br>
+
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-Express-339933?logo=node.js)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb)
+![Passport.js](https://img.shields.io/badge/Passport.js-Authentication-34A853)
+![Yahoo Finance](https://img.shields.io/badge/API-Yahoo%20Finance-F4B400)
+![Chart.js](https://img.shields.io/badge/Charts-Chart.js-FF6384)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 </div>
 
 ---
 
+# 🌐 Live Demo
+
+### 🚀 Landing Website
+
+https://tradelens-1.onrender.com
+
+### 📊 Trading Dashboard
+
+> *(Deploy separately and add the dashboard URL here.)*
+
+---
+
 # 📖 About
 
-**TradeLens** is a full-stack stock trading platform built using the **MERN Stack**. It allows users to create an account, log in securely, manage a personalized watchlist, buy and sell stocks, view holdings and positions, and track real-time stock prices using Yahoo Finance.
+TradeLens is a **full-stack stock trading platform** built using the **MERN Stack**.
 
-The project demonstrates authentication, REST APIs, MongoDB integration, real-time market data, and responsive frontend development.
+The platform provides a realistic online trading experience where users can:
+
+- Create an account
+- Login securely
+- Manage their personalized watchlist
+- Buy & Sell stocks
+- View Holdings
+- Monitor Positions
+- Track Portfolio
+- View live market prices
+
+Real-time stock prices are fetched using the **Yahoo Finance API**, while secure authentication is implemented using **Passport.js**, **Express Sessions**, and **MongoDB Atlas**.
 
 ---
 
 # ✨ Features
 
-### 👤 Authentication
+## 👤 Authentication
 
-- User Signup
-- User Login
-- Secure Password Hashing
-- Session Authentication using Passport.js
+- User Registration
+- Secure Login
+- Password Hashing
+- Passport.js Authentication
+- Express Session
 - Protected Dashboard
 
 ---
 
-### 📊 Dashboard
+## 📊 Dashboard
 
 - Portfolio Summary
 - Holdings
@@ -49,16 +90,16 @@ The project demonstrates authentication, REST APIs, MongoDB integration, real-ti
 
 ---
 
-### 📈 Stock Trading
+## 📈 Trading
 
 - Buy Stocks
 - Sell Stocks
-- Order History
 - Portfolio Management
+- Order History
 
 ---
 
-### ⭐ Watchlist
+## ⭐ Watchlist
 
 - Add Stocks
 - Delete Stocks
@@ -69,16 +110,17 @@ The project demonstrates authentication, REST APIs, MongoDB integration, real-ti
 
 ---
 
-### 📉 Live Market Data
+## 📉 Live Market Data
 
-- Yahoo Finance Integration
+- Yahoo Finance API Integration
 - Live Stock Prices
-- Market Change %
+- Price Change
+- Percentage Change
 - Real-Time Updates
 
 ---
 
-### 📊 Charts
+## 📊 Data Visualization
 
 - Doughnut Chart
 - Holdings Distribution
@@ -91,10 +133,19 @@ The project demonstrates authentication, REST APIs, MongoDB integration, real-ti
 ## Frontend
 
 - React.js
-- React Router
+- React Router DOM
 - Axios
-- Material UI
 - Bootstrap
+- Material UI
+- Chart.js
+
+---
+
+## Dashboard
+
+- React.js
+- Material UI
+- Axios
 - Chart.js
 
 ---
@@ -105,19 +156,14 @@ The project demonstrates authentication, REST APIs, MongoDB integration, real-ti
 - Express.js
 - Passport.js
 - Express Session
+- Yahoo Finance API
 
 ---
 
 ## Database
 
-- MongoDB
+- MongoDB Atlas
 - Mongoose
-
----
-
-## API
-
-- Yahoo Finance
 
 ---
 
@@ -130,17 +176,21 @@ TradeLens
 │   ├── model
 │   ├── routes
 │   ├── schemas
+│   ├── middleware
+│   ├── utils
 │   └── index.js
 │
 ├── dashboard
-│   ├── src
 │   ├── public
-│   └── components
+│   ├── src
+│   └── package.json
 │
 ├── frontend
-│   ├── src
 │   ├── public
-│   └── landing_page
+│   ├── src
+│   └── package.json
+│
+├── screenshots
 │
 └── README.md
 ```
@@ -149,44 +199,43 @@ TradeLens
 
 # 📷 Screenshots
 
-## Landing Page
+## 🏠 Landing Page
 
 <img src="screenshots/home.png" width="100%">
 
 ---
 
-## Login
+## 🔐 Login
 
 <img src="screenshots/login.png" width="100%">
 
 ---
 
-## Signup
+## 📝 Signup
 
 <img src="screenshots/signup.png" width="100%">
 
 ---
 
-## Dashboard
+## 📊 Dashboard
 
 <img src="screenshots/dashboard.png" width="100%">
 
 ---
 
-## Holdings
+## 💼 Holdings
 
 <img src="screenshots/holdings.png" width="100%">
 
 ---
 
-## Orders
+## 📑 Orders
 
 <img src="screenshots/orders.png" width="100%">
 
 ---
 
-
-## Buy Window
+## 💸 Buy Window
 
 <img src="screenshots/buy.png" width="100%">
 
@@ -194,10 +243,10 @@ TradeLens
 
 # 🚀 Installation
 
-Clone the repository
+## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/TradeLens.git
+git clone https://github.com/Srujan-017/TradeLens.git
 ```
 
 Move into the project
@@ -208,25 +257,28 @@ cd TradeLens
 
 ---
 
-## Backend
+## Backend Setup
 
 ```bash
 cd backend
 npm install
 ```
 
-Create
+Create:
 
 ```
 backend/.env
 ```
 
+Add:
+
 ```
 MONGO_URL=YOUR_MONGODB_CONNECTION_STRING
 PORT=3002
+SESSION_SECRET=YOUR_SECRET_KEY
 ```
 
-Run
+Start the backend:
 
 ```bash
 npm start
@@ -234,7 +286,7 @@ npm start
 
 ---
 
-## Frontend
+## Frontend Setup
 
 ```bash
 cd frontend
@@ -244,7 +296,7 @@ npm start
 
 ---
 
-## Dashboard
+## Dashboard Setup
 
 ```bash
 cd dashboard
@@ -254,30 +306,70 @@ npm start
 
 ---
 
-# 📌 Future Improvements
+# 🚀 Deployment
 
-- Stock Price Graphs
-- Portfolio Analytics
-- Profit/Loss Reports
-- Transaction History
-- Dark Mode
-- Mobile Responsive UI
-- Notifications
-- News Integration
+| Service | Platform |
+|----------|----------|
+| Frontend | Render |
+| Dashboard | Render |
+| Backend | Render |
+| Database | MongoDB Atlas |
+
+---
+
+# 📌 Future Enhancements
+
+- 📈 Live Candlestick Charts
+- 🤖 AI Portfolio Advisor
+- 📊 Advanced Portfolio Analytics
+- 💹 Profit & Loss Reports
+- 📰 Financial News Integration
+- 🔔 Price Alerts
+- 🌙 Dark Mode
+- 📱 Mobile Application
+- 🌐 Multi-language Support
+- 📧 Email Notifications
 
 ---
 
 # 👨‍💻 Author
 
-**Srujan V**
+## **Srujan V**
 
-GitHub: https://github.com/Srujan-017
+### 🔗 GitHub
 
-LinkedIn: [YOUR_LINKEDIN_PROFILE](https://www.linkedin.com/in/srujan-v-049560325/)
+https://github.com/Srujan-017
+
+### 💼 LinkedIn
+
+https://www.linkedin.com/in/srujan-v-049560325/
 
 ---
 
-# ⭐ If you like this project
+# 🙏 Acknowledgements
+
+- Yahoo Finance API
+- React.js
+- Express.js
+- MongoDB Atlas
+- Passport.js
+- Material UI
+- Bootstrap
+- Chart.js
+
+---
+
+<div align="center">
+
+## ⭐ If you found this project helpful, please consider giving it a Star on GitHub!
+
+### 🚀 Live Demo
+
+https://tradelens-1.onrender.com
+
+**Thank you for visiting TradeLens!**
+
+</div>
 
 Please consider giving this repository a ⭐ on GitHub!
 
