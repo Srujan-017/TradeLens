@@ -3,7 +3,7 @@ import axios from "axios";
 
 import GeneralContext from "./GeneralContext";
 
-import { Tooltip, Grow } from "@mui/material";
+import { Tooltip } from "@mui/material";
 import {
   BarChartOutlined,
   KeyboardArrowDown,
@@ -305,7 +305,6 @@ const WatchListActions = ({ uid, reloadWatchlist }) => {
         title="Buy (B)"
         placement="top"
         arrow
-        TransitionComponent={Grow}
       >
         <button
           className="buy"
@@ -319,7 +318,6 @@ const WatchListActions = ({ uid, reloadWatchlist }) => {
         title="Sell (S)"
         placement="top"
         arrow
-        TransitionComponent={Grow}
       >
         <button
           className="sell"
@@ -333,7 +331,6 @@ const WatchListActions = ({ uid, reloadWatchlist }) => {
         title="Delete"
         placement="top"
         arrow
-        TransitionComponent={Grow}
       >
         <button
           className="action"
@@ -347,7 +344,6 @@ const WatchListActions = ({ uid, reloadWatchlist }) => {
         title="Analytics"
         placement="top"
         arrow
-        TransitionComponent={Grow}
       >
         <button className="action">
           <BarChartOutlined className="icon" />
@@ -358,7 +354,6 @@ const WatchListActions = ({ uid, reloadWatchlist }) => {
         title="More"
         placement="top"
         arrow
-        TransitionComponent={Grow}
       >
         <button className="action">
           <MoreHoriz className="icon" />
