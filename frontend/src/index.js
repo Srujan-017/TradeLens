@@ -7,6 +7,7 @@ import {
   useLocation,
 } from "react-router-dom";
 
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 
 import HomePage from "./landing_page/home/HomePage";
